@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-28 17:30:48 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- very high vehicle traffic -->
+    <vType id="passanger_cars3" jmDriveAfterYellowTime="2"/>
+    <flow id="f_25"  begin="0" from="S1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_25A" begin="0" from="S1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_26"  begin="0" from="S1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_27"  begin="0" from="S1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_28"  begin="0" from="E1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_28A" begin="0" from="E1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_29"  begin="0" from="E1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_30"  begin="0" from="E1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_31"  begin="0" from="N1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_31A" begin="0" from="N1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_32"  begin="0" from="N1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_33"  begin="0" from="N1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_34"  begin="0" from="W1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_34A" begin="0" from="W1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_35"  begin="0" from="W1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_36"  begin="0" from="W1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+
+    <!-- medium pedestrian traffic -->
+    <personFlow id="f_13" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_14" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_15" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_16" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_17" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_18" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_19" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_20" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_21" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_22" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_23" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_24" begin="0" end="3600" period="exp(0.024)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+</routes>

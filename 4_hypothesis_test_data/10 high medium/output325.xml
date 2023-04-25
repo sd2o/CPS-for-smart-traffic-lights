@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-08 00:59:34 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:\Hypothesis%20test%20data\2_intersection.net.xml"/>
+        <route-files value="S:\Hypothesis%20test%20data\demand32.rou.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <statistic-output value="S:\Hypothesis%20test%20data\output325.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport.remove value="true"/>
+        <pedestrian.striping.dawdling value="0.05"/>
+        <pedestrian.striping.reserve-oncoming value="0.1"/>
+        <pedestrian.striping.reserve-oncoming.junctions value="0.34"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="325"/>
+    </random_number>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="3196" inserted="3196" running="39" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="1078" running="59" jammed="0"/>
+    <vehicleTripStatistics routeLength="289.44" speed="7.35" duration="49.20" waitingTime="19.98" timeLoss="27.49" departDelay="0.04" departDelayWaiting="-1.00" totalTravelTime="155337.00" totalDepartDelay="134.00"/>
+    <pedestrianStatistics number="1019" routeLength="231.96" duration="204.96" timeLoss="36.75"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

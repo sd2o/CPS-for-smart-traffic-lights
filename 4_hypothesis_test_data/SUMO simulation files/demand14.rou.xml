@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-28 17:30:48 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- low vehicle traffic -->
+    <vType id="passanger_cars1" jmDriveAfterYellowTime="2"/>
+    <flow id="f_1"   begin="0.00" from="S1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_1A"  begin="0.00" from="S1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_2"   begin="0.00" from="S1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_3"   begin="0.00" from="S1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_4"   begin="0.00" from="E1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_4A"  begin="0.00" from="E1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_5"   begin="0.00" from="E1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_6"   begin="0.00" from="E1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_7"   begin="0.00" from="N1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_7A"  begin="0.00" from="N1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_8"   begin="0.00" from="N1" to="W2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_9"   begin="0.00" from="N1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_10"  begin="0.00" from="W1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_10A" begin="0.00" from="W1" to="E2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_11"  begin="0.00" from="W1" to="S2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_12"  begin="0.00" from="W1" to="N2" end="3600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+
+    <!-- very high pedestrian traffic -->
+    <personFlow id="f_49" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_50" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_51" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_52" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_53" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_54" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_55" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_56" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_57" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_58" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_59" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_60" begin="0" end="3600" period="exp(0.047)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+</routes>

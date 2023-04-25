@@ -1,0 +1,22 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <laneAreaDetector file="ped_detect127.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_E1_0" lane="E1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_1" lane="E1_1" to="N2_1" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect1271.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_2" lane="E1_2" to="W2_2" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect1271.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_3" lane="E1_3" to="W2_3" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect1272.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_4" lane="E1_4" to="S2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_N1_0" lane="N1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_1" lane="N1_1" to="W2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_2" lane="N1_2" to="S2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_3" lane="N1_3" to="S2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_4" lane="N1_4" to="E2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_S1_0" lane="S1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_1" lane="S1_1" to="E2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_2" lane="S1_2" to="N2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_3" lane="S1_3" to="N2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_4" lane="S1_4" to="W2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_W1_0" lane="W1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_1" lane="W1_1" to="S2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_2" lane="W1_2" to="E2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_3" lane="W1_3" to="E2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_4" lane="W1_4" to="N2_3" length="61" pos="72"/>
+</additional>

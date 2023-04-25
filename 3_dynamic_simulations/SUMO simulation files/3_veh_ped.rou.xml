@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-28 17:30:48 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- low vehicle traffic -->
+    <vType id="passanger_cars1" jmDriveAfterYellowTime="2"/>
+    <flow id="f_1"   begin="0.00" from="S1" to="N2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_1A"  begin="0.00" from="S1" to="N2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_2"   begin="0.00" from="S1" to="E2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_3"   begin="0.00" from="S1" to="W2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_4"   begin="0.00" from="E1" to="W2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_4A"  begin="0.00" from="E1" to="W2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_5"   begin="0.00" from="E1" to="N2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_6"   begin="0.00" from="E1" to="S2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_7"   begin="0.00" from="N1" to="S2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_7A"  begin="0.00" from="N1" to="S2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_8"   begin="0.00" from="N1" to="W2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_9"   begin="0.00" from="N1" to="E2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_10"  begin="0.00" from="W1" to="E2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_10A" begin="0.00" from="W1" to="E2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_11"  begin="0.00" from="W1" to="S2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_12"  begin="0.00" from="W1" to="N2" end="21600" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    
+    <!-- low pedestrian traffic -->
+    <personFlow id="f_1" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_2" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_3" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_4" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_5" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_6" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_7" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_8" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_9" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_10" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_11" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_12" begin="0.00" end="18000" period="exp(0.012)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+
+    <!-- medium pedestrian traffic -->
+    <personFlow id="f_13" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_14" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_15" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_16" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_17" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_18" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_19" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_20" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_21" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_22" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_23" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_24" begin="18001" end="21600" period="exp(0.024)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- medium vehicle traffic -->
+    <vType id="passanger_cars2" jmDriveAfterYellowTime="2"/>
+    <flow id="f_13"  begin="21601" from="S1" to="N2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_13A" begin="21601" from="S1" to="N2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_14"  begin="21601" from="S1" to="E2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_15"  begin="21601" from="S1" to="W2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_16"  begin="21601" from="E1" to="W2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_16A" begin="21601" from="E1" to="W2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_17"  begin="21601" from="E1" to="N2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_18"  begin="21601" from="E1" to="S2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_19"  begin="21601" from="N1" to="S2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_19A" begin="21601" from="N1" to="S2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_20"  begin="21601" from="N1" to="W2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_21"  begin="21601" from="N1" to="E2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_22"  begin="21601" from="W1" to="E2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_22A" begin="21601" from="W1" to="E2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_23"  begin="21601" from="W1" to="S2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_24"  begin="21601" from="W1" to="N2" end="27000" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    
+    <!-- medium pedestrian traffic -->
+    <personFlow id="f_25" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_26" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_27" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_28" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_29" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_30" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_31" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_32" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_33" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_34" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_35" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_36" begin="21601" end="27000" period="exp(0.024)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- very high vehicle traffic -->
+    <vType id="passanger_cars3" jmDriveAfterYellowTime="2"/>
+    <flow id="f_25"  begin="27001" from="S1" to="N2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_25A" begin="27001" from="S1" to="N2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_26"  begin="27001" from="S1" to="E2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_27"  begin="27001" from="S1" to="W2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_28"  begin="27001" from="E1" to="W2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_28A" begin="27001" from="E1" to="W2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_29"  begin="27001" from="E1" to="N2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_30"  begin="27001" from="E1" to="S2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_31"  begin="27001" from="N1" to="S2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_31A" begin="27001" from="N1" to="S2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_32"  begin="27001" from="N1" to="W2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_33"  begin="27001" from="N1" to="E2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_34"  begin="27001" from="W1" to="E2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_34A" begin="27001" from="W1" to="E2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_35"  begin="27001" from="W1" to="S2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_36"  begin="27001" from="W1" to="N2" end="37800" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+
+    <!-- high pedestrian traffic -->
+    <personFlow id="f_37" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_38" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_39" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_40" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_41" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_42" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_43" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_44" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_45" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_46" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_47" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_48" begin="27001" end="32400" period="exp(0.035)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- very high pedestrian traffic -->
+    <personFlow id="f_49" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_50" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_51" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_52" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_53" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_54" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_55" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_56" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_57" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_58" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_59" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_60" begin="32401" end="37800" period="exp(0.047)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- high vehicle traffic -->
+    <vType id="passanger_cars4" jmDriveAfterYellowTime="2"/>
+    <flow id="f_37"  begin="37801" from="S1" to="N2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_37A" begin="37801" from="S1" to="N2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_38"  begin="37801" from="S1" to="E2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_39"  begin="37801" from="S1" to="W2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_40"  begin="37801" from="E1" to="W2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_40A" begin="37801" from="E1" to="W2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_41"  begin="37801" from="E1" to="N2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_42"  begin="37801" from="E1" to="S2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_43"  begin="37801" from="N1" to="S2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_43A" begin="37801" from="N1" to="S2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_44"  begin="37801" from="N1" to="W2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_45"  begin="37801" from="N1" to="E2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_46"  begin="37801" from="W1" to="E2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_46A" begin="37801" from="W1" to="E2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_47"  begin="37801" from="W1" to="S2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_48"  begin="37801" from="W1" to="N2" end="43200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    
+    <!-- medium pedestrian traffic -->
+    <personFlow id="f_61" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_62" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_63" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_64" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_65" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_66" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_67" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_68" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_69" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_70" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_71" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_72" begin="37801" end="43200" period="exp(0.024)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+    
+    <!-- medium vehicle traffic -->
+    <vType id="passanger_cars5" jmDriveAfterYellowTime="2"/>
+    <flow id="f_49"  begin="43201" from="S1" to="N2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_49A" begin="43201" from="S1" to="N2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_50"  begin="43201" from="S1" to="E2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_51"  begin="43201" from="S1" to="W2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_52"  begin="43201" from="E1" to="W2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_52A" begin="43201" from="E1" to="W2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_53"  begin="43201" from="E1" to="N2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_54"  begin="43201" from="E1" to="S2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_55"  begin="43201" from="N1" to="S2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_55A" begin="43201" from="N1" to="S2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_56"  begin="43201" from="N1" to="W2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_57"  begin="43201" from="N1" to="E2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_58"  begin="43201" from="W1" to="E2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_58A" begin="43201" from="W1" to="E2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_59"  begin="43201" from="W1" to="S2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_60"  begin="43201" from="W1" to="N2" end="48600" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    
+    <!-- high pedestrian traffic -->
+    <personFlow id="f_73" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_74" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_75" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_76" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_77" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_78" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_79" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_80" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_81" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_82" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_83" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_84" begin="43201" end="48600" period="exp(0.035)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- low vehicle traffic -->
+    <vType id="passanger_cars6" jmDriveAfterYellowTime="2"/>
+    <flow id="f_61"  begin="48601" from="S1" to="N2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_61A" begin="48601" from="S1" to="N2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_62"  begin="48601" from="S1" to="E2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_63"  begin="48601" from="S1" to="W2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_64"  begin="48601" from="E1" to="W2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_64A" begin="48601" from="E1" to="W2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_65"  begin="48601" from="E1" to="N2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_66"  begin="48601" from="E1" to="S2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_67"  begin="48601" from="N1" to="S2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_67A" begin="48601" from="N1" to="S2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_68"  begin="48601" from="N1" to="W2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_69"  begin="48601" from="N1" to="E2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_70"  begin="48601" from="W1" to="E2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_70A" begin="48601" from="W1" to="E2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_71"  begin="48601" from="W1" to="S2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_72"  begin="48601" from="W1" to="N2" end="59400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+
+    <!-- very high pedestrian traffic -->
+    <personFlow id="f_85" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_86" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_87" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_88" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_89" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_90" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_91" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_92" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_93" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_94" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_95" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_96" begin="48601" end="54000" period="exp(0.047)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- high pedestrian traffic -->
+    <personFlow id="f_97" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_98" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_99" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_100" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_101" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_102" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_103" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_104" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_105" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_106" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_107" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_108" begin="54001" end="59400" period="exp(0.035)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- medium vehicle traffic -->
+    <vType id="passanger_cars7" jmDriveAfterYellowTime="2"/>
+    <flow id="f_73"  begin="59401" from="S1" to="N2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_73A" begin="59401" from="S1" to="N2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_74"  begin="59401" from="S1" to="E2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_75"  begin="59401" from="S1" to="W2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_76"  begin="59401" from="E1" to="W2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_76A" begin="59401" from="E1" to="W2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_77"  begin="59401" from="E1" to="N2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_78"  begin="59401" from="E1" to="S2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_79"  begin="59401" from="N1" to="S2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_79A" begin="59401" from="N1" to="S2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_80"  begin="59401" from="N1" to="W2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_81"  begin="59401" from="N1" to="E2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_82"  begin="59401" from="W1" to="E2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_82A" begin="59401" from="W1" to="E2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.057)"/>
+    <flow id="f_83"  begin="59401" from="W1" to="S2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+    <flow id="f_84"  begin="59401" from="W1" to="N2" end="64800" departLane="best" departSpeed="speedLimit" period="exp(0.042)"/>
+
+    <!-- very high pedestrian traffic -->
+    <personFlow id="f_109" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_110" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_111" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_112" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_113" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_114" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_115" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_116" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_117" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_118" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_119" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_120" begin="59401" end="64800" period="exp(0.047)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+    
+    <!-- high vehicle traffic -->
+    <vType id="passanger_cars8" jmDriveAfterYellowTime="2"/>
+    <flow id="f_85"  begin="64801" from="S1" to="N2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_85A" begin="64801" from="S1" to="N2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_86"  begin="64801" from="S1" to="E2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_87"  begin="64801" from="S1" to="W2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_88"  begin="64801" from="E1" to="W2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_88A" begin="64801" from="E1" to="W2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_89"  begin="64801" from="E1" to="N2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_90"  begin="64801" from="E1" to="S2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_91"  begin="64801" from="N1" to="S2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_91A" begin="64801" from="N1" to="S2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_92"  begin="64801" from="N1" to="W2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_93"  begin="64801" from="N1" to="E2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_94"  begin="64801" from="W1" to="E2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_94A" begin="64801" from="W1" to="E2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_95"  begin="64801" from="W1" to="S2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_96"  begin="64801" from="W1" to="N2" end="70200" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    
+    <!-- high pedestrian traffic -->
+    <personFlow id="f_121" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_122" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_123" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_124" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_125" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_126" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_127" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_128" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_129" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_130" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_131" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_132" begin="64801" end="67500" period="exp(0.035)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- very high pedestrian traffic -->
+    <personFlow id="f_133" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_134" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_135" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_136" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_137" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_138" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_139" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_140" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_141" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_142" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_143" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_144" begin="67501" end="70200" period="exp(0.047)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- very high vehicle traffic -->
+    <vType id="passanger_cars9" jmDriveAfterYellowTime="2"/>
+    <flow id="f_97"   begin="70201" from="S1" to="N2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_97A"  begin="70201" from="S1" to="N2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_98"   begin="70201" from="S1" to="E2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_99"   begin="70201" from="S1" to="W2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_100"  begin="70201" from="E1" to="W2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_100A" begin="70201" from="E1" to="W2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_101"  begin="70201" from="E1" to="N2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_102"  begin="70201" from="E1" to="S2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_103"  begin="70201" from="N1" to="S2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_103A" begin="70201" from="N1" to="S2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_104"  begin="70201" from="N1" to="W2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_105"  begin="70201" from="N1" to="E2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_106"  begin="70201" from="W1" to="E2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_106A" begin="70201" from="W1" to="E2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.079"/>
+    <flow id="f_107"  begin="70201" from="W1" to="S2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+    <flow id="f_108"  begin="70201" from="W1" to="N2" end="75600" departLane="best" departSpeed="speedLimit" probability="0.059"/>
+
+    <!-- medium pedestrian traffic -->
+    <personFlow id="f_145" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_146" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_147" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_148" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_149" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_150" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_151" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_152" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_153" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_154" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_155" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_156" begin="70201" end="72900" period="exp(0.024)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- low pedestrian traffic -->
+    <personFlow id="f_157" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_158" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_159" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_160" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_161" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_162" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_163" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_164" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_165" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_166" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_167" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_168" begin="72901" end="75600" period="exp(0.012)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- high vehicle traffic -->
+    <vType id="passanger_cars10" jmDriveAfterYellowTime="2"/>
+    <flow id="f_109"  begin="75601" from="S1" to="N2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_109A" begin="75601" from="S1" to="N2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_110"  begin="75601" from="S1" to="E2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_111"  begin="75601" from="S1" to="W2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_112"  begin="75601" from="E1" to="W2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_112A" begin="75601" from="E1" to="W2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_113"  begin="75601" from="E1" to="N2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_114"  begin="75601" from="E1" to="S2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_115"  begin="75601" from="N1" to="S2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_115A" begin="75601" from="N1" to="S2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_116"  begin="75601" from="N1" to="W2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_117"  begin="75601" from="N1" to="E2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_118"  begin="75601" from="W1" to="E2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_118A" begin="75601" from="W1" to="E2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.065"/>
+    <flow id="f_119"  begin="75601" from="W1" to="S2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+    <flow id="f_120"  begin="75601" from="W1" to="N2" end="81000" departLane="best" departSpeed="speedLimit" probability="0.049"/>
+
+    <!-- low pedestrian traffic -->
+    <personFlow id="f_169" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_170" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_171" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_172" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_173" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_174" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_175" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_176" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_177" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_178" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_179" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_180" begin="75601" end="81000" period="exp(0.012)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+
+    <!-- medium vehicle traffic -->
+    <vType id="passanger_cars11" jmDriveAfterYellowTime="2"/>
+    <flow id="f_121"  begin="81001" from="S1" to="N2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_121A" begin="81001" from="S1" to="N2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_122"  begin="81001" from="S1" to="E2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_123"  begin="81001" from="S1" to="W2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_124"  begin="81001" from="E1" to="W2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_124A" begin="81001" from="E1" to="W2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_125"  begin="81001" from="E1" to="N2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_126"  begin="81001" from="E1" to="S2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_127"  begin="81001" from="N1" to="S2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_127A" begin="81001" from="N1" to="S2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_128"  begin="81001" from="N1" to="W2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_129"  begin="81001" from="N1" to="E2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_130"  begin="81001" from="W1" to="E2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_130A" begin="81001" from="W1" to="E2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.033)"/>
+    <flow id="f_131"  begin="81001" from="W1" to="S2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+    <flow id="f_132"  begin="81001" from="W1" to="N2" end="86400" departLane="best" departSpeed="speedLimit" period="exp(0.024)"/>
+
+    <!-- low pedestrian traffic -->
+    <personFlow id="f_181" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="S1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_182" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="S1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_183" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="S1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_184" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="E1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_185" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="E1" to="N2"/>
+    </personFlow>
+    <personFlow id="f_186" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="E1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_187" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="N1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_188" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="N1" to="W2"/>
+    </personFlow>
+    <personFlow id="f_189" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="N1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_190" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="W1" to="E2"/>
+    </personFlow>
+    <personFlow id="f_191" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="W1" to="S2"/>
+    </personFlow>
+    <personFlow id="f_192" begin="81001" end="86400" period="exp(0.012)">
+        <personTrip from="W1" to="N2"/>
+    </personFlow>
+</routes>

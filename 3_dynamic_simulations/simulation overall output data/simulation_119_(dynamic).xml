@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-26 16:21:41 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:/3_dynamic_simulations/2_intersection.net.xml"/>
+        <route-files value="S:/3_dynamic_simulations/3_veh_ped.rou.xml"/>
+        <additional-files value="S:/3_dynamic_simulations/4_sensor_(dynamic).add.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <statistic-output value="S:/3_dynamic_simulations/simulation_119_(dynamic).xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+    </time>
+
+    <processing>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport.remove value="true"/>
+        <pedestrian.striping.dawdling value="0.05"/>
+        <pedestrian.striping.reserve-oncoming value="0.1"/>
+        <pedestrian.striping.reserve-oncoming.junctions value="0.34"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49812"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="23370"/>
+    </random_number>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="63123" inserted="63123" running="24" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="28169" running="20" jammed="4"/>
+    <vehicleTripStatistics routeLength="289.54" speed="7.45" duration="48.16" waitingTime="18.49" timeLoss="26.37" departDelay="0.40" departDelayWaiting="-1.00" totalTravelTime="3038781.00" totalDepartDelay="25377.29"/>
+    <pedestrianStatistics number="28149" routeLength="230.73" duration="201.16" timeLoss="33.10"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

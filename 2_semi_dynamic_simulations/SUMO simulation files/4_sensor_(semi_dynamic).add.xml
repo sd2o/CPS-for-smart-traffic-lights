@@ -1,0 +1,121 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <laneAreaDetector file="ped_detect27.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_E1_0" lane="E1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_1" lane="E1_1" to="N2_1" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect272.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_2" lane="E1_2" to="W2_2" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect272.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_3" lane="E1_3" to="W2_3" length="61" pos="72"/>
+    <laneAreaDetector file="veh_detect273.xml" tl="Junction"  friendlyPos="x" id="e2det_E1_4" lane="E1_4" to="S2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_N1_0" lane="N1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_1" lane="N1_1" to="W2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_2" lane="N1_2" to="S2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_3" lane="N1_3" to="S2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_N1_4" lane="N1_4" to="E2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_S1_0" lane="S1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_1" lane="S1_1" to="E2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_2" lane="S1_2" to="N2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_3" lane="S1_3" to="N2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_S1_4" lane="S1_4" to="W2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" period="30"  detectPersons="walkForward" friendlyPos="x" id="e2det_W1_0" lane="W1_0" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_1" lane="W1_1" to="S2_1" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_2" lane="W1_2" to="E2_2" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_3" lane="W1_3" to="E2_3" length="61" pos="72"/>
+    <laneAreaDetector file="detect1.xml" tl="Junction"  friendlyPos="x" id="e2det_W1_4" lane="W1_4" to="N2_3" length="61" pos="72"/>
+
+
+    
+    <tlLogic id="Junction" type="static" programID="1" offset="0">
+        <phase duration="9"  state="GrrGGrrrGrrGGrrrrrrr"/>
+	    <phase duration="3"  state="yrryyrrryrryyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGgsrrrgGGgsrrrrGrG"/>
+        <phase duration="12" state="gGGgsrrrgGGgsrrrrrrr"/>
+	    <phase duration="3"  state="yyyysrrryyyysrrrrrrr"/>
+        <phase duration="1"  state="rrrrsrrrrrrrsrrrrrrr"/>
+        <phase duration="9"  state="GrrrGrrGGrrrGrrGrrrr"/>
+        <phase duration="3"  state="yrrryrryyrrryrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="srrrgGGgsrrrgGGgGrGr"/>
+	    <phase duration="12" state="srrrgGGgsrrrgGGgrrrr"/>
+	    <phase duration="3"  state="srrryyyysrrryyyyrrrr"/>
+        <phase duration="1"  state="srrrsrrrsrrrsrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="Junction" type="static" programID="2" offset="0">
+        <phase duration="12"  state="GrrGGrrrGrrGGrrrrrrr"/>
+	    <phase duration="3"  state="yrryyrrryrryyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGgsrrrgGGgsrrrrGrG"/>
+        <phase duration="12" state="gGGgsrrrgGGgsrrrrrrr"/>
+	    <phase duration="3"  state="yyyysrrryyyysrrrrrrr"/>
+        <phase duration="1"  state="rrrrsrrrrrrrsrrrrrrr"/>
+        <phase duration="12"  state="GrrrGrrGGrrrGrrGrrrr"/>
+        <phase duration="3"  state="yrrryrryyrrryrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="srrrgGGgsrrrgGGgGrGr"/>
+	    <phase duration="12" state="srrrgGGgsrrrgGGgrrrr"/>
+	    <phase duration="3"  state="srrryyyysrrryyyyrrrr"/>
+        <phase duration="1"  state="srrrsrrrsrrrsrrrrrrr"/>
+    </tlLogic>
+    
+
+    <tlLogic id="Junction" type="static" programID="3" offset="0">
+        <phase duration="15"  state="GrrGGrrrGrrGGrrrrrrr"/>
+	    <phase duration="3"  state="yrryyrrryrryyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGgsrrrgGGgsrrrrGrG"/>
+        <phase duration="13" state="gGGgsrrrgGGgsrrrrrrr"/>
+	    <phase duration="3"  state="yyyysrrryyyysrrrrrrr"/>
+        <phase duration="1"  state="rrrrsrrrrrrrsrrrrrrr"/>
+        <phase duration="15"  state="GrrrGrrGGrrrGrrGrrrr"/>
+        <phase duration="3"  state="yrrryrryyrrryrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="srrrgGGgsrrrgGGgGrGr"/>
+	    <phase duration="13" state="srrrgGGgsrrrgGGgrrrr"/>
+	    <phase duration="3"  state="srrryyyysrrryyyyrrrr"/>
+        <phase duration="1"  state="srrrsrrrsrrrsrrrrrrr"/>
+    </tlLogic>
+
+    <!-- <tlLogic id="Junction" type="static" programID="4" offset="0">
+        <phase duration="19" state="GrrGGrrrGrrGGrrrrrrr"/>
+	    <phase duration="3"  state="yrryyrrryrryyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGgsrrrgGGgsrrrrGrG"/>
+        <phase duration="19" state="gGGgsrrrgGGgsrrrrrrr"/>
+	    <phase duration="3"  state="yyyysrrryyyysrrrrrrr"/>
+        <phase duration="1"  state="rrrrsrrrrrrrsrrrrrrr"/>
+        <phase duration="19" state="GrrrGrrGGrrrGrrGrrrr"/>
+        <phase duration="3"  state="yrrryrryyrrryrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="srrrgGGgsrrrgGGgGrGr"/>
+	    <phase duration="19" state="srrrgGGgsrrrgGGgrrrr"/>
+	    <phase duration="3"  state="srrryyyysrrryyyyrrrr"/>
+        <phase duration="1"  state="srrrsrrrsrrrsrrrrrrr"/>
+    </tlLogic> -->
+
+    <tlLogic id="Junction" type="static" programID="4" offset="0">
+        <phase duration="19" state="GrrGGrrrGrrGGrrrrrrr"/>
+	    <phase duration="3"  state="yrryyrrryrryyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGgsrrrgGGgsrrrrGrG"/>
+        <phase duration="22" state="gGGgsrrrgGGgsrrrrrrr"/>
+	    <phase duration="3"  state="yyyysrrryyyysrrrrrrr"/>
+        <phase duration="1"  state="rrrrsrrrrrrrsrrrrrrr"/>
+        <phase duration="19" state="GrrrGrrGGrrrGrrGrrrr"/>
+        <phase duration="3"  state="yrrryrryyrrryrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="srrrgGGgsrrrgGGgGrGr"/>
+	    <phase duration="22" state="srrrgGGgsrrrgGGgrrrr"/>
+	    <phase duration="3"  state="srrryyyysrrryyyyrrrr"/>
+        <phase duration="1"  state="srrrsrrrsrrrsrrrrrrr"/>
+    </tlLogic>
+
+
+    <WAUT startProg="2" refTime="0" id="Semi-dynamic">
+        <wautSwitch to="4" time="27001"></wautSwitch>
+        <wautSwitch to="2" time="43201"></wautSwitch>
+        <wautSwitch to="4" time="64801"></wautSwitch>
+        <wautSwitch to="2" time="81001"></wautSwitch>
+    </WAUT>
+
+    <wautJunction junctionID="Junction" wautID="Semi-dynamic"></wautJunction>
+
+</additional>

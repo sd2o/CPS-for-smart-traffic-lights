@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-08 01:39:00 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:\Hypothesis%20test%20data\2_intersection.net.xml"/>
+        <route-files value="S:\Hypothesis%20test%20data\demand44.rou.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <statistic-output value="S:\Hypothesis%20test%20data\output447.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport.remove value="true"/>
+        <pedestrian.striping.dawdling value="0.05"/>
+        <pedestrian.striping.reserve-oncoming value="0.1"/>
+        <pedestrian.striping.reserve-oncoming.junctions value="0.34"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="447"/>
+    </random_number>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="4107" inserted="4106" running="74" waiting="1"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="2038" running="116" jammed="0"/>
+    <vehicleTripStatistics routeLength="289.27" speed="6.32" duration="66.13" waitingTime="33.00" timeLoss="44.34" departDelay="0.52" departDelayWaiting="-1.00" totalTravelTime="266621.00" totalDepartDelay="2108.00"/>
+    <pedestrianStatistics number="1922" routeLength="230.88" duration="215.02" timeLoss="46.22"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
